@@ -1,3 +1,4 @@
+// swift-tools-version: 5.7
 /*
 MIT License
 
@@ -22,9 +23,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-// swift-tools-version: 5.7
-// The swift-tools-version declares the minimum version of Swift required to build this package.
-
 import PackageDescription
 
 private let packageName = "TAAdsMediation"
@@ -42,8 +40,8 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "git@github.com:TechArtists/ios-analytics.git", .upToNextMajor(from: "2.0.0")),
-        .package(url: "git@github.com:TechArtists/ios-debug-tools.git", .upToNextMajor(from: "1.4.0")),
+        .package(url: "git@github.com:TechArtists/ios-analytics.git", .upToNextMajor(from: "0.9.0")),
+        .package(url: "git@github.com:TechArtists/ios-debug-tools.git", .upToNextMajor(from: "0.9.0")),
         .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", .upToNextMajor(from: "13.0.0"))
     ],
     targets: [
